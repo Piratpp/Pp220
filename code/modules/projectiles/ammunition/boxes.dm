@@ -298,6 +298,22 @@
 	icon_state = "ammobox_10incendiary"
 	ammo_type = /obj/item/ammo_casing/c10mm/fire
 
+/obj/item/ammo_box/specter/laser
+	name = "ammo box (specter laser)"
+	desc = "Коробка, содержащая 30 лазерных патронов для пистолета \"Спектр\"."
+	icon_state = "speclaser"
+	origin_tech = "combat=2"
+	ammo_type = /obj/item/ammo_casing/specter/laser
+	max_ammo = 30
+
+/obj/item/ammo_box/specter/disabler
+	name = "ammo box (specter disable)"
+	desc = "Коробка, содержащая 30 парализующих патронов для пистолета \"Спектр\"."
+	icon_state = "specstamina"
+	origin_tech = "combat=2"
+	ammo_type = /obj/item/ammo_casing/specter/disable
+	max_ammo = 30
+
 /**
  * SPEEDLOADER
  */

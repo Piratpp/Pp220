@@ -34,8 +34,18 @@
 //Specter//
 /obj/item/gun/projectile/automatic/pistol/specter
 	name = "Specter"
-	desc = "A pistol of modern design."
+	ru_names = list(
+	NOMINATIVE = "Спектр",
+	GENITIVE = "Спектра",
+	DATIVE = "Спектру",
+	ACCUSATIVE = "Спектр",
+	INSTRUMENTAL = "Спектром",
+	PREPOSITIONAL = "Спектре"
+	)
+	desc = "Современный пистолет \"Спектр\", модернизирован для возможности стрельбы лазерными патронами. Поставляется только силовым структурам Нанотрейзен."
 	icon_state = "specter"
+	item_state = "specter"
+	force = 10
 	w_class = WEIGHT_CLASS_NORMAL
 	origin_tech = "combat=4;materials=2"
 	mag_type = /obj/item/ammo_box/magazine/specmaglaser
@@ -43,11 +53,14 @@
 	magin_sound = 'sound/weapons/gun_interactions/spec_magin.ogg'
 	magout_sound = 'sound/weapons/gun_interactions/spec_magout.ogg'
 	unique_reskin = TRUE
+	can_suppress = FALSE
 	can_flashlight = TRUE
+	materials = list(MAT_METAL = 1000)
 	gun_light_overlay = "specter-light"
 
 
 /obj/item/gun/projectile/automatic/pistol/specter/update_gun_skins()
+	add_skin("Grey slide", "specter")
 	add_skin("Red slide", "specter_red")
 	add_skin("Green slide", "specter_green")
 	add_skin("Tan slide", "specter_tan")
