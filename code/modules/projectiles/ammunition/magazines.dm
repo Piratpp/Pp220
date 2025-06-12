@@ -677,7 +677,7 @@
 
 /obj/item/ammo_box/magazine/specmaglaser
 	name = "small encased laser projector magazine"
-	desc = "Fits experimental laser ammo casings."
+	desc = "Вмещает экспериментальные гильзы от лазерных боеприпасов."
 	icon_state = "specmaglaser"
 	ammo_type = /obj/item/ammo_casing/laser
 	origin_tech = "combat=3"

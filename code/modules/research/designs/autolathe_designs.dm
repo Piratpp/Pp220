@@ -866,7 +866,7 @@
 	category = list("hacked", "Security")
 
 /datum/design/specter/disable
-	name = "Ammo box (specter disable)"
+	name = "ammo box (specter disable)"
 	id = "specter_disable"
 	build_type = AUTOLATHE
 	materials = list(MAT_METAL = 25000)
@@ -874,7 +874,7 @@
 	category = list("initial", "Security")
 
 /datum/design/specter/laser
-	name = "Ammo box (specter laser)"
+	name = "ammo box (specter laser)"
 	id = "specter_laser"
 	build_type = AUTOLATHE
 	materials = list(MAT_METAL = 35000)
