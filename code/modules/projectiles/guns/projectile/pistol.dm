@@ -48,7 +48,7 @@
 	force = 10
 	w_class = WEIGHT_CLASS_NORMAL
 	origin_tech = "combat=4;materials=2"
-	mag_type = /obj/item/ammo_box/magazine/specmaglaser
+	mag_type = /obj/item/ammo_box/magazine/specter
 	fire_sound = 'sound/weapons/gunshots/speclaser.ogg'
 	magin_sound = 'sound/weapons/gun_interactions/spec_magin.ogg'
 	magout_sound = 'sound/weapons/gun_interactions/spec_magout.ogg'

@@ -74,7 +74,7 @@
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/blue_laser
 	light_color = LIGHT_COLOR_CYAN
 
-/obj/item/projectile/beam/specter/laser
+/obj/projectile/beam/specter/laser
 	name = "specter laser beam"
 	icon_state = "laser"
 	damage = 25
@@ -82,7 +82,7 @@
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/red_laser
 	light_color = LIGHT_COLOR_DARKRED
 
-/obj/item/projectile/beam/specter/disabler
+/obj/projectile/beam/specter/disabler
 	name = "specter paralyzer beam"
 	icon_state = "omnilaser"
 	damage = 30
