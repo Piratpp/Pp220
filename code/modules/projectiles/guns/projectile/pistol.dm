@@ -33,7 +33,7 @@
 
 //Specter//
 /obj/item/gun/projectile/automatic/pistol/specter
-	name = "Specter"
+	name = "Спектр"
 	desc = "Современный пистолет \"Спектр\", модернизирован для возможности стрельбы лазерными патронами. Поставляется только силовым структурам Нанотрейзен."
 	icon_state = "specter"
 	item_state = "specter"

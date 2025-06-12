@@ -676,8 +676,8 @@
 
 
 /obj/item/ammo_box/magazine/specmaglaser
-	name = "small encased laser projector magazine"
-	desc = "Вмещает экспериментальные гильзы от лазерных боеприпасов."
+	name = "Небольшой магазин Спектр."
+	desc = "Вмещает экспериментальные гильзы от лазерных боеприпасов \"Спектр\"."
 	icon_state = "specmaglaser"
 	ammo_type = /obj/item/ammo_casing/laser
 	origin_tech = "combat=3"
@@ -740,7 +740,7 @@
 	max_ammo = 14
 
 /obj/item/ammo_box/magazine/specter
-	name = "specter magazine (disable)"
+	name = "Магазин Спектр (Дизейблер)"
 	desc = "Магазин пистолета \"Спектр\", предназначенный для парализующих патронов."
 	icon_state = "specmag"
 	ammo_type = /obj/item/ammo_casing/specter/disable
@@ -770,7 +770,7 @@
 	return FALSE
 
 /obj/item/ammo_box/magazine/specter/laser
-	name = "specter magazine (laser)"
+	name = "Магазин сСпектр (Лазер)"
 	desc = "Магазин пистолета \"Спектр\", предназначенный для лазерных патронов."
 	ammo_type = /obj/item/ammo_casing/specter/laser
 	materials = list(MAT_METAL = 5000)

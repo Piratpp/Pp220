@@ -866,7 +866,7 @@
 	category = list("hacked", "Security")
 
 /datum/design/specter/disable
-	name = "ammo box (specter disable)"
+	name = "Коробка Патронов (Спектр Дизейблер)"
 	id = "specter_disable"
 	build_type = AUTOLATHE
 	materials = list(MAT_METAL = 25000)
@@ -874,7 +874,7 @@
 	category = list("initial", "Security")
 
 /datum/design/specter/laser
-	name = "ammo box (specter laser)"
+	name = "Коробка Патронов (Спектр Лазер)"
 	id = "specter_laser"
 	build_type = AUTOLATHE
 	materials = list(MAT_METAL = 35000)
@@ -882,7 +882,7 @@
 	category = list("hacked", "Security")
 
 /datum/design/spectermag_disabler
-	name = "specter magazine (disable)"
+	name = "Магазин Спектр (Дизейблер)"
 	id = "spectermag_disabler"
 	build_type = AUTOLATHE
 	materials = list(MAT_METAL = 8000)
@@ -891,7 +891,7 @@
 
 //hacked autolathe recipes
 /datum/design/spectermag_laser
-	name = "specter magazine (laser)"
+	name = "Магазин Спектр (Лазер)"
 	id = "spectermag_laser"
 	build_type = AUTOLATHE
 	materials = list(MAT_METAL = 10000)
