@@ -675,20 +675,6 @@
 	icon_state = "lmag-[CEILING(ammo_count(), 5)]"
 
 
-/obj/item/ammo_box/magazine/specmaglaser
-	name = "Небольшой магазин Спектр."
-	desc = "Вмещает экспериментальные гильзы от лазерных боеприпасов \"Спектр\"."
-	icon_state = "specmaglaser"
-	ammo_type = /obj/item/ammo_casing/laser
-	origin_tech = "combat=3"
-	caliber = "laser"
-	max_ammo = 8
-
-
-/obj/item/ammo_box/magazine/specmaglaser/update_icon_state()
-	icon_state = "specmaglaser-[CEILING(ammo_count(), 2)]"
-
-
 /obj/item/ammo_box/magazine/toy/smgm45/riot
 	ammo_type = /obj/item/ammo_casing/caseless/foam_dart/riot
 
