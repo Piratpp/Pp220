@@ -303,14 +303,14 @@
 	max_ammo = 30
 
 /obj/item/ammo_box/specter/laser
-	name = "Коробка Патронов (Спектр Лазер)"
+	name = "коробка патронов (спектр лазер)"
 	desc = "Коробка, содержащая 30 лазерных патронов для пистолета \"Спектр\"."
 	icon_state = "speclaser"
 	ammo_type = /obj/item/ammo_casing/specter/laser
 
 
 /obj/item/ammo_box/specter/disabler
-	name = "Коробка Патронов (Спектр Дизейблер)"
+	name = "коробка патронов (спектр дизейблер)"
 	desc = "Коробка, содержащая 30 парализующих патронов для пистолета \"Спектр\"."
 	icon_state = "specstamina"
 	ammo_type = /obj/item/ammo_casing/specter/disable

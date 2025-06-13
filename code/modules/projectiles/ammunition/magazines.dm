@@ -726,8 +726,16 @@
 	max_ammo = 14
 
 /obj/item/ammo_box/magazine/specter
-	name = "Магазин Спектр (Дизейблер)"
+	name = "магазин спектр (дизейблер)"
 	desc = "Магазин пистолета \"Спектр\", предназначенный для парализующих патронов."
+	ru_names = list(
+	NOMINATIVE = "магазин спектр (дизейблер)",
+	GENITIVE = "магазина спектр (дизейблер)",
+	DATIVE = "магазину спектр (дизейблер)",
+	ACCUSATIVE = "магазин спектр (дизейблер)",
+	INSTRUMENTAL = "магазином спектр (дизейблер)",
+	PREPOSITIONAL = "магазине спектр (дизейблер)"
+	)
 	icon_state = "specmag"
 	ammo_type = /obj/item/ammo_casing/specter/disable
 	max_ammo = 8
@@ -744,8 +752,9 @@
 
 /obj/item/ammo_box/magazine/specter/examine(mob/user)
 	. = ..()
-	if(get_dist(user, src) <= 2)
-		. += span_notice("Похоже, что он заряжен [is_disable() ? "парализующими" : "лазерными"] патронами.")
+	if(get_dist(user, src) > 2)
+		return
+	. += span_notice("Похоже, что он заряжен [is_disable() ? "парализующими" : "лазерными"] патронами.")
 
 /obj/item/ammo_box/magazine/specter/proc/is_disable()
 	var/ammo = ammo_count()
@@ -756,7 +765,15 @@
 	return FALSE
 
 /obj/item/ammo_box/magazine/specter/laser
-	name = "Магазин сСпектр (Лазер)"
+	name = "магазин спектр (лазер)"
 	desc = "Магазин пистолета \"Спектр\", предназначенный для лазерных патронов."
+	ru_names = list(
+	NOMINATIVE = "магазин спектр (лазер)",
+	GENITIVE = "магазина спектр (лазер)",
+	DATIVE = "магазину спектр (лазер)",
+	ACCUSATIVE = "магазин спектр (лазер)",
+	INSTRUMENTAL = "магазином спектр (лазер)",
+	PREPOSITIONAL = "магазине спектр (лазер)"
+	)
 	ammo_type = /obj/item/ammo_casing/specter/laser
 	materials = list(MAT_METAL = 5000)
