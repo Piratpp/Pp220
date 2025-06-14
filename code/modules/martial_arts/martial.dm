@@ -46,6 +46,12 @@
 	/// If provided, this list will override victim's default resist chances for any grab state.
 	/// Examples: list(MARTIAL_GRAB_AGGRESSIVE = 60, MARTIAL_GRAB_NECK = 40, MARTIAL_GRAB_KILL = 5) or list(MARTIAL_GRAB_NECK = 5)
 	var/list/grab_resist_chances
+	/// Set to TRUE to prevent users of this style from using stun batons (and stunprods)
+	var/no_baton = FALSE
+	/// Message displayed when someone uses a baton when its forbidden by a martial art
+	var/no_baton_reason = "Ваша подготовка в области боевых искусств не позволяет вам использовать дубинкой."
+	/// Whether or not you can grab someone while horizontal with this Martial Art
+	var/can_horizontally_grab = TRUE
 
 
 /datum/martial_art/New()

@@ -85,6 +85,10 @@
 	if(!allows_stun_in_harm && user.a_intent == INTENT_HARM)
 		return BATON_DO_NORMAL_ATTACK
 
+	if(user.mind?.martial_art?.no_baton && user.mind?.martial_art?.can_use(user))
+		to_chat(user, user.mind.martial_art.no_baton_reason)
+		return BATON_ATTACK_DONE
+
 	if(!COOLDOWN_FINISHED(src, stun_cooldown))
 		if(user.a_intent == INTENT_HARM)
 			return BATON_DO_NORMAL_ATTACK
