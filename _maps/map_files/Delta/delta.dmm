@@ -435,15 +435,6 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/wood/fancy/light,
 /area/crew_quarters/heads/hop)
-"acU" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
-/area/security/permabrig)
 "ads" = (
 /obj/structure/closet/wardrobe/red,
 /obj/item/clothing/suit/tracksuit/red,
@@ -182515,7 +182506,7 @@ dCj
 dHO
 xan
 fLm
-acU
+dXG
 cPu
 tLD
 fBo
