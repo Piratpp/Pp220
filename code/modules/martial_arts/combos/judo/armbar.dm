@@ -1,7 +1,7 @@
 /datum/martial_combo/judo/armbar
 	name = "Болевой"
 	steps = list(MARTIAL_COMBO_STEP_DISARM, MARTIAL_COMBO_STEP_DISARM, MARTIAL_COMBO_STEP_GRAB)
-	explaination_text = "возьмите сбитого с ног противника в болевой захват, обезоружив его."
+	explaination_text = "Возьмите сбитого с ног противника в болевой захват, обезоружив его."
 
 
 /datum/martial_combo/judo/armbar/perform_combo(mob/living/carbon/human/user, mob/living/target, datum/martial_art/martial_art)
