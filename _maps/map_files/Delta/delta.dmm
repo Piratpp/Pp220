@@ -35512,8 +35512,8 @@
 /turf/simulated/floor/plasteel,
 /area/quartermaster/storage)
 "dHs" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/recharge_station,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -49715,11 +49715,11 @@
 /area/maintenance/disposal)
 "gof" = (
 /obj/structure/table,
-/obj/item/instrument/harmonica,
-/obj/item/dice/d20,
 /obj/structure/sign/poster/official/random{
 	pixel_x = 32
 	},
+/obj/item/dice/d20,
+/obj/item/instrument/piano_synth,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -94633,8 +94633,8 @@
 	},
 /area/security/permabrig)
 "qJM" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/recharge_station,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -119752,6 +119752,14 @@
 /obj/effect/decal/warning_stripes/yellow/hollow,
 /turf/simulated/floor/wood/fancy/cherry,
 /area/magistrateoffice)
+"wxy" = (
+/obj/structure/table,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/item/instrument/harmonica,
+/turf/simulated/floor/plating,
+/area/security/permabrig)
 "wxC" = (
 /turf/simulated/wall/r_wall,
 /area/security/prisonershuttle)
@@ -181242,7 +181250,7 @@ aru
 jqH
 pix
 aru
-pix
+wxy
 qGt
 vyi
 jch
@@ -183546,8 +183554,8 @@ jrZ
 tqn
 uHx
 dlJ
-qJM
-qJM
+dHs
+dHs
 mLC
 mLC
 xLJ
@@ -184844,7 +184852,7 @@ xan
 vIm
 vGv
 kTh
-dHs
+qJM
 iCu
 jqn
 rEC
