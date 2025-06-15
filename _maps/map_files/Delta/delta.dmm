@@ -30377,7 +30377,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint4)
 "djZ" = (
-/obj/structure/table,
 /obj/item/storage/firstaid/regular,
 /obj/machinery/camera{
 	c_tag = "Permabrig West";
@@ -30389,6 +30388,7 @@
 /obj/item/stack/rods{
 	amount = 2
 	},
+/obj/structure/table,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -35512,10 +35512,12 @@
 /turf/simulated/floor/plasteel,
 /area/quartermaster/storage)
 "dHs" = (
-/obj/structure/lattice,
-/obj/structure/lattice,
-/turf/space,
-/area/space)
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/recharge_station,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/security/permabrig)
 "dHt" = (
 /obj/structure/bookcase,
 /turf/simulated/floor/wood,
@@ -36645,12 +36647,12 @@
 /turf/simulated/floor/carpet,
 /area/medical/psych)
 "dLZ" = (
-/obj/structure/table,
 /obj/machinery/reagentgrinder{
 	pixel_x = -1;
 	pixel_y = 9
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
 /turf/simulated/floor/plasteel{
 	icon_state = "bar"
 	},
@@ -55098,9 +55100,9 @@
 	},
 /area/hallway/primary/central/south)
 "hzJ" = (
-/obj/structure/table,
 /obj/structure/bedsheetbin,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
 /turf/simulated/floor/plasteel{
 	icon_state = "freezerfloor"
 	},
@@ -65611,11 +65613,10 @@
 /turf/simulated/floor/wood/fancy/light,
 /area/crew_quarters/courtroom)
 "kaO" = (
-/obj/structure/table,
-/obj/structure/table,
 /obj/item/clothing/under/color/orange/prison,
 /obj/item/melee/bigiron,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
 /turf/simulated/floor/plasteel{
 	icon_state = "freezerfloor"
 	},
@@ -76609,7 +76610,8 @@
 /area/toxins/mixing)
 "mLC" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/recharge_station,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -81566,9 +81568,9 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/obj/structure/table,
 /obj/machinery/cell_charger,
 /obj/item/stock_parts/cell/high,
+/obj/structure/table,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -81942,7 +81944,6 @@
 	},
 /area/storage/tech)
 "nUO" = (
-/obj/structure/table,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -81954,6 +81955,7 @@
 	},
 /obj/item/storage/photo_album,
 /obj/item/camera,
+/obj/structure/table,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -94631,7 +94633,6 @@
 	},
 /area/security/permabrig)
 "qJM" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel{
@@ -114032,13 +114033,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/lawoffice)
-"vhX" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
-/area/security/permabrig)
 "vib" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -180729,7 +180723,7 @@ aaq
 aaq
 aaq
 aaq
-aaq
+coE
 dZq
 coE
 coE
@@ -180986,7 +180980,7 @@ aaq
 aaq
 aaq
 aaq
-aaq
+coE
 aru
 dCr
 dCr
@@ -181497,10 +181491,10 @@ aaq
 aaq
 aaq
 aaq
-bCI
-bCI
-bCI
 aaq
+dZq
+aaq
+coE
 aru
 fgI
 mWu
@@ -181752,9 +181746,9 @@ aaq
 aaq
 aaq
 aaq
-aaq
-bCI
-coE
+dZq
+dZq
+dZq
 coE
 coE
 coE
@@ -182005,10 +181999,10 @@ aaq
 aaq
 aaq
 aaq
-bqc
-bqc
-bqc
-bqc
+dZq
+dZq
+dZq
+aaq
 coE
 coE
 coE
@@ -182516,7 +182510,7 @@ aaq
 aaq
 aaq
 aaq
-bCI
+bqc
 coE
 coE
 aru
@@ -183029,7 +183023,7 @@ aaq
 aaq
 aaq
 aaq
-aaq
+dZq
 coE
 jXK
 aru
@@ -183286,7 +183280,7 @@ aaq
 aaq
 aaq
 aaq
-bCI
+dZq
 coE
 aru
 lMA
@@ -183543,7 +183537,7 @@ aaq
 aaq
 aaq
 aaq
-bCI
+dZq
 coE
 dlr
 hzJ
@@ -183552,10 +183546,10 @@ jrZ
 tqn
 uHx
 dlJ
-vhX
-vhX
 qJM
 qJM
+mLC
+mLC
 xLJ
 acU
 bkl
@@ -183800,7 +183794,7 @@ aaq
 aaq
 aaq
 aaq
-bCI
+dZq
 coE
 aru
 kaO
@@ -184057,7 +184051,7 @@ aaq
 aaq
 aaq
 aaq
-bCI
+aaq
 coE
 jXK
 aru
@@ -184314,8 +184308,8 @@ aaq
 aaq
 aaq
 aaq
-aaq
-dHs
+bqc
+coE
 coE
 aru
 aru
@@ -184572,7 +184566,7 @@ aaq
 aaq
 aaq
 aaq
-bCI
+bqc
 coE
 coE
 aru
@@ -184829,7 +184823,7 @@ aaq
 aaq
 aaq
 aaq
-bCI
+aaq
 aaq
 coE
 aru
@@ -184850,7 +184844,7 @@ xan
 vIm
 vGv
 kTh
-mLC
+dHs
 iCu
 jqn
 rEC
@@ -185087,7 +185081,7 @@ aaq
 aaq
 aaq
 aaq
-bCI
+dZq
 coE
 aru
 aru
@@ -185344,10 +185338,10 @@ aaq
 aaq
 aaq
 aaq
-bCI
-aaq
+dZq
 coE
-dHs
+coE
+coE
 coE
 coE
 aru
@@ -185602,11 +185596,11 @@ aaq
 aaq
 aaq
 aaq
+dZq
+dZq
+dZq
 aaq
-bqc
-bqc
-aaq
-aaq
+coE
 coE
 coE
 coE
@@ -185863,8 +185857,8 @@ aaq
 aaq
 aaq
 aaq
-bqc
-bqc
+aaq
+aaq
 aaq
 coE
 coE
@@ -186123,7 +186117,7 @@ aaq
 aaq
 aaq
 aaq
-bCI
+aaq
 coE
 coE
 coE
@@ -186380,9 +186374,9 @@ aaq
 aaq
 aaq
 aaq
-bCI
-bCI
-bCI
+aaq
+aaq
+aaq
 coE
 coE
 coE
@@ -186640,12 +186634,12 @@ aaq
 aaq
 aaq
 aaq
+dZq
+dZq
+dZq
 aaq
 aaq
-bCI
-bCI
-bCI
-aaq
+dZq
 coE
 dZq
 dZq
