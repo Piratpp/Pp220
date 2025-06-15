@@ -436,10 +436,10 @@
 /turf/simulated/floor/wood/fancy/light,
 /area/crew_quarters/heads/hop)
 "acU" = (
-/obj/effect/decal/cleanable/dirt,
+/obj/machinery/portable_atmospherics/scrubber/huge/stationary,
+/obj/effect/decal/warning_stripes/red/hollow,
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "darkredcorners"
+	icon_state = "darkred"
 	},
 /area/security/permabrig)
 "ads" = (
@@ -33495,11 +33495,12 @@
 /turf/simulated/floor/carpet,
 /area/crew_quarters/fitness)
 "dxN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/wardrobe/pjs,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "cmo"
+	dir = 6;
+	icon_state = "darkred"
 	},
 /area/security/permabrig)
 "dxO" = (
@@ -46785,6 +46786,9 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "darkred"
@@ -50207,10 +50211,11 @@
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint4)
 "gue" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/effect/landmark/ninja_teleport,
+/obj/structure/cable{
+	icon_state = "1-4";
+	tag = "90Curve"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/perma)
 "gui" = (
@@ -52289,9 +52294,6 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -60947,13 +60949,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/bar/atrium)
-"iWk" = (
-/obj/machinery/portable_atmospherics/scrubber/huge/stationary,
-/obj/effect/decal/warning_stripes/red/hollow,
-/turf/simulated/floor/plasteel{
-	icon_state = "darkred"
-	},
-/area/security/permabrig)
 "iWl" = (
 /turf/simulated/floor/plasteel{
 	dir = 8;
@@ -65753,6 +65748,14 @@
 	icon_state = "neutralfull"
 	},
 /area/atmos/control)
+"kdO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/wardrobe/pjs,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "cmo"
+	},
+/area/security/permabrig)
 "kdP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood/fancy/black,
@@ -86423,9 +86426,7 @@
 	},
 /area/security/prison/cell_block/A)
 "oWU" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
+/obj/structure/closet/emcloset,
 /turf/simulated/floor/plating,
 /area/maintenance/perma)
 "oWV" = (
@@ -86831,8 +86832,10 @@
 	},
 /area/library/game_zone)
 "pbV" = (
-/obj/structure/closet/emcloset,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/perma)
 "pcb" = (
@@ -93437,12 +93440,10 @@
 	},
 /area/maintenance/kitchen)
 "quY" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/can,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
+	icon_state = "bar"
 	},
 /area/security/permabrig)
 "qvg" = (
@@ -101827,11 +101828,10 @@
 	},
 /area/bridge)
 "srM" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
+	dir = 8;
+	icon_state = "darkredcorners"
 	},
 /area/security/permabrig)
 "srP" = (
@@ -113029,11 +113029,11 @@
 /turf/simulated/floor/plating,
 /area/turret_protected/aisat_interior)
 "uUT" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /obj/machinery/door/airlock/maintenance{
 	req_access = list(2)
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/perma)
@@ -120226,10 +120226,12 @@
 /turf/simulated/wall,
 /area/medical/medbay)
 "wDS" = (
-/obj/effect/spawner/window/reinforced,
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
+	},
+/obj/effect/spawner/window/reinforced/polarized{
+	id = "visiting room"
 	},
 /turf/simulated/floor/plating,
 /area/security/visiting_room)
@@ -183025,7 +183027,7 @@ aaq
 coE
 jXK
 aru
-dxN
+kdO
 gIy
 gIy
 iWm
@@ -183549,7 +183551,7 @@ dcs
 qJM
 mLC
 xLJ
-iWk
+acU
 bkl
 qie
 xxG
@@ -184060,10 +184062,10 @@ ojU
 aru
 gqu
 eEj
-eEj
+quY
 dXz
 qJL
-acU
+srM
 uPb
 uoU
 fiU
@@ -184584,8 +184586,8 @@ iRA
 jEA
 val
 gQC
-wTJ
-srM
+dXG
+xan
 iDp
 jqd
 sdz
@@ -184842,7 +184844,7 @@ xan
 vIm
 vGv
 kTh
-quY
+dXG
 iCu
 jqn
 rEC
@@ -185099,7 +185101,7 @@ inJ
 ceT
 gQN
 dZF
-uUT
+dZF
 dZF
 dZF
 dZF
@@ -185610,8 +185612,8 @@ iZf
 iZf
 iZf
 fCT
-kTh
-dZF
+dxN
+uUT
 pbV
 gue
 pzY
