@@ -30759,13 +30759,13 @@
 	},
 /area/engineering/engine)
 "dlJ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/airlock{
 	id_tag = "PermaBath";
 	name = "Restroom"
 	},
-/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/security/permabrig)
 "dlK" = (
@@ -45028,6 +45028,7 @@
 "ffs" = (
 /obj/structure/table/wood,
 /obj/item/stack/spacechips/c5000,
+/obj/item/deck/cards/doublecards,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -46985,7 +46986,7 @@
 /area/turret_protected/ai)
 "fFp" = (
 /obj/structure/table/wood,
-/obj/item/deck/cards,
+/obj/item/deck/unum,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -72913,6 +72914,13 @@
 	icon_state = "dark"
 	},
 /area/bridge)
+"lVs" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/recharge_station,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/security/permabrig)
 "lVE" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -76607,9 +76615,8 @@
 /turf/simulated/floor/plating,
 /area/toxins/mixing)
 "mLC" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -94632,8 +94639,8 @@
 /area/security/permabrig)
 "qJM" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -111910,7 +111917,6 @@
 "uHx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/security/permabrig)
 "uHy" = (
@@ -183546,10 +183552,10 @@ jrZ
 tqn
 uHx
 dlJ
-dcs
-dcs
-qJM
 mLC
+mLC
+qJM
+qJM
 xLJ
 acU
 bkl
@@ -184844,7 +184850,7 @@ xan
 vIm
 vGv
 kTh
-dXG
+lVs
 iCu
 jqn
 rEC
