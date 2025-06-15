@@ -72914,13 +72914,6 @@
 	icon_state = "dark"
 	},
 /area/bridge)
-"lVs" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/recharge_station,
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
-/area/security/permabrig)
 "lVE" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -76615,8 +76608,8 @@
 /turf/simulated/floor/plating,
 /area/toxins/mixing)
 "mLC" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/recharge_station,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -114039,6 +114032,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/lawoffice)
+"vhX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/security/permabrig)
 "vib" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -183552,8 +183552,8 @@ jrZ
 tqn
 uHx
 dlJ
-mLC
-mLC
+vhX
+vhX
 qJM
 qJM
 xLJ
@@ -184850,7 +184850,7 @@ xan
 vIm
 vGv
 kTh
-lVs
+mLC
 iCu
 jqn
 rEC
