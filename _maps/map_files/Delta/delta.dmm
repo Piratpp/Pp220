@@ -25574,6 +25574,7 @@
 	dir = 4
 	},
 /obj/item/pen,
+/obj/machinery/light,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -36212,8 +36213,8 @@
 /turf/simulated/floor/plasteel,
 /area/hallway/secondary/exit)
 "dKw" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb2,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	icon_state = "freezerfloor"
 	},
@@ -36908,7 +36909,6 @@
 	dir = 8
 	},
 /obj/item/wirecutters,
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/warning_stripes/blue/hollow,
 /obj/machinery/light/small{
 	dir = 4
@@ -46586,6 +46586,9 @@
 	dir = 4
 	},
 /obj/item/reagent_containers/food/drinks/zaza,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -58243,6 +58246,9 @@
 	icon_state = "2-4"
 	},
 /obj/item/seeds/tower,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -83017,6 +83023,7 @@
 /obj/item/seeds/grass,
 /obj/item/seeds/grass,
 /obj/item/seeds/grass,
+/obj/machinery/light,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -83080,6 +83087,8 @@
 /area/security/processing)
 "ojw" = (
 /obj/machinery/light,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	icon_state = "freezerfloor"
 	},
@@ -95314,7 +95323,6 @@
 	dir = 8
 	},
 /obj/effect/decal/warning_stripes/blue/hollow,
-/obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/gloves/knuckles,
 /obj/machinery/light/small{
 	dir = 4
@@ -100085,12 +100093,12 @@
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint4)
 "rXU" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/sink{
 	dir = 1;
 	layer = 5;
 	pixel_y = -5
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
 	icon_state = "freezerfloor"
 	},
@@ -117559,6 +117567,7 @@
 /turf/simulated/floor/plating,
 /area/security/warden)
 "vXq" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock{
 	id_tag = "PermaBath";
 	name = "Restroom"
@@ -183266,7 +183275,7 @@ bCI
 coE
 aru
 lMA
-ojU
+mdB
 ojU
 drT
 qbW
@@ -183781,7 +183790,7 @@ coE
 aru
 kaO
 ojU
-ojU
+mdB
 jvD
 fdX
 aru
