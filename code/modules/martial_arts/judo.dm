@@ -54,11 +54,11 @@
 
 	var/mob/living/carbon/human/human = user
 	if(HAS_TRAIT(user, TRAIT_PACIFISM))
-		to_chat(human, span_warning("Корпоративное Дзюдо может ранить других людей. Сама мысль об этом, вызывает у вас отвращение!"))
+		to_chat(human, span_warning("Корпоративное Дзюдо может ранить других людей. Сама мысль об этом вызывает у вас отвращение!"))
 		return
 
 	style.teach(human, TRUE)
-	to_chat(human, span_userdanger("Наниты в поясе наделяют вас навыками применения Корпоративного Дзюдо!"))
+	to_chat(human, span_userdanger("Наниты в поясе наделяют вас навыками Корпоративного Дзюдо!"))
 	to_chat(human, span_danger("Комбо смотрите во вкладке «Боевые искусства»."))
 
 

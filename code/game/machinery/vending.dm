@@ -2157,7 +2157,7 @@
 		/obj/item/clothing/mask/gas/sechailer/tactical = 5,
 		/obj/item/flashlight/sectaclight = 2,
 		/obj/item/grenade/smokebomb = 8,
-		/obj/item/storage/belt/security/judobelt = 2,
+		/obj/item/storage/belt/security/judobelt = 1,
 	)
 	contraband = list(
 		/obj/item/clothing/glasses/sunglasses = 2,
